@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* lab1 enum-y */
+        /* przykład 1 enum-y */
         /* Najprostsze Użycie enumów jako prosty typ wyliczeniowy */
         System.out.println("kolor " + KolorEnum.CZERWONY);
 
