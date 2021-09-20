@@ -1,24 +1,41 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        /* ćw 1 enum-y */
+        /* przykład 2 klasy */
+        /* najprostsze użycie klas */
+        List<Pojazd> pojazdList = new ArrayList<>();
 
-        /* zad.1
-        a) Stworzyć prosty enum "LiczbyEnum" z liczbami od 1 do 6 zapisanymi słownie,
-        b) stworzyć prosty enum "StatusEnum" z wartościami KONTYNUUJEMY i KONIEC,
-        c) stworzyć pętlę while z wartością true w warunku (nieskończona pętla),
-        d) niech w pętli są podawane wartości liczbowe z klawiatury,
-        e) jeśli użytkownik poda z klawiatury 0 to program ma kończyć działanie,
-        f) umieścić w pętli switch() case: które będą wypisywały cyfry słownie odpowiednio
-        do podanych cyfr przez użytkownika,
-        g) gdy użytkownik wciśnie 0 ma wyświetlić się status KONIEC w innym wypadku KONTYNUUJEMY :),
-        */
+        Pojazd pojazd = new Pojazd();
+        pojazd.kolor = KolorEnum.NIEBIESKI;
+        pojazd.iloscKol = 4;
+        pojazd.nazwa = "Traktor";
+        pojazdList.add(pojazd);
 
-        /* statusy i wybór ze switch case to najczęstsze użycia enumów, enumy są często używane
-        * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
+        pojazd = new Pojazd();
+        pojazd.iloscKol = 2;
+        pojazd.nazwa = "Rower";
+        pojazd.kolor = KolorEnum.CZERMONY;
+        pojazdList.add(pojazd);
+
+        for (Pojazd p : pojazdList) {
+            System.out.println(p.nazwa + " - " + p.iloscKol + " - " + p.kolor);
+        }
 
     }
+}
+
+/* Prosta klasa */
+class Pojazd {
+    String nazwa;
+    KolorEnum kolor;
+    int iloscKol;
+}
+
+enum KolorEnum {
+    CZERMONY, ZIELONY, NIEBIESKI
 }
