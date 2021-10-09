@@ -6,7 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* przykład 3 klasy */
+        /* ćw 3 klasy */
+
+        /*  zad.1
+            a) stworzyć objekt typu punkt, new Punkt()
+            b)
+        */
 
         /* stworzenie objektu p1 typu Punkt */
         Punkt p1 = new Punkt(); // wywołanie pustego konstruktora
