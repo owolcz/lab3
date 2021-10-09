@@ -3,11 +3,11 @@ public class Punkt {
     /* stworzyć zmienne prywatne pX, pY, pZ */
 
     /* stworzyć
-    a) pusty konstruktor,
-    b) konstruktor inicjalizujacy zmienną pX,
-    c) konstruktor inicjalizujący wszystkie zmienne,
-    d) stworzyć settery i gettery,
-    e) getter do zmiennej pZ niech zwraca return pZ * 10;
+        a) pusty konstruktor,
+        b) konstruktor inicjalizujacy zmienną pX,
+        c) konstruktor inicjalizujący wszystkie zmienne,
+        d) stworzyć settery i gettery,
+        e) getter do zmiennej pZ niech zwraca return pZ * 10;
 
         podpowiedz ALT + INSERT można wybrać generowanie automatyczne
         konstruktora, getterów, setterów, nadpisywanie metody toString() i inne ...
