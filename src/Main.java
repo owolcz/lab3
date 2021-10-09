@@ -1,24 +1,31 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
+        /* przyklad 4 klasy */
 
-        /* ćw 3 klasy */
+        /* Deklaracja i inicjalizowanie objektu klasy ObjektPunktu pustymi wartościami */
+        ObjektPunktu objektPunktu = new ObjektPunktu();
+        System.out.println(objektPunktu.toString()); // ObjektPunktu{punkt=null, z=0}
 
-        /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,
-            a) stworzyć objekt punktA typu Punkt,
-            w konstruktorze zainicjować zmienną pX --> np. new Punkt(7), wykonać metodę punktA.toString();
-            b) następnie ponownie wywopać konstruktor inicjalizujący wszystkie pola z klasy
-            --> np. punkt = new Punkt(1, 2, 3);, wykonać metodę punktA.toString();
-            c) nadpisać wartości pól z objektu punktA za pomocą setterów i
-            ponownie wywołać metodę toString();
-            d) wypisać wartości pól (za pomocą getterów),
-            e) wywołać metody suma i róznica (obie wersje) z klasy punkt
-        */
+        /* Deklaracja i inicjalizowanie objektu klasy Punkt pustymi wartościami */
+        Punkt punkt = new Punkt();
+        System.out.println(punkt.toString()); // Punkt{x=0, y=0}
 
+        /* Wywołanie konstruktora parametryzowanego klasy Punkt */
+        punkt = new Punkt(10, 15);
+        System.out.println(punkt.toString()); // Punkt{x=10, y=15}
+
+        /* Wywołanie konstruktora parametryzowanego klasy ObjektPunktu */
+        objektPunktu = new ObjektPunktu(punkt, 20);
+        System.out.println(objektPunktu.toString()); // ObjektPunktu{punkt=Punkt{x=10, y=15}, z=20}
+
+        /* wywołanie metod wyliczjących */
+        System.out.println(objektPunktu.dodawanie1()); // 45
+        System.out.println(objektPunktu.dodawanie2()); // 45
+
+        /* nadpisanie pola punkt z klasy ObjektPunktu */
+        objektPunktu.setPunkt(new Punkt(1, 2));
+        System.out.println(objektPunktu.dodawanie1()); // 23
 
     }
 }
