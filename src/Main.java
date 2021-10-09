@@ -1,31 +1,32 @@
 public class Main {
 
     public static void main(String[] args) {
-        /* przyklad 4 klasy */
+        /* ćw 4 klasy */
 
-        /* Deklaracja i inicjalizowanie objektu klasy ObjektPunktu pustymi wartościami */
-        ObjektPunktu objektPunktu = new ObjektPunktu();
-        System.out.println(objektPunktu.toString()); // ObjektPunktu{punkt=null, z=0}
+        /* zad.1
+            a) Stworzyć klasę typu Osoba z polami prywatnymi:
+            - imie (String),
+            - nazwisko (String),
+            - indeks (Integer)
 
-        /* Deklaracja i inicjalizowanie objektu klasy Punkt pustymi wartościami */
-        Punkt punkt = new Punkt();
-        System.out.println(punkt.toString()); // Punkt{x=0, y=0}
+            b) stworzyc konstruktory, gettery i settery
+            c) napisać metodę w klasie Osoba która zwróci informację o osobie,
+         */
 
-        /* Wywołanie konstruktora parametryzowanego klasy Punkt */
-        punkt = new Punkt(10, 15);
-        System.out.println(punkt.toString()); // Punkt{x=10, y=15}
+        /* zad.2
+            a) Stworzyć klasę Student z polami prywatnymi
+            - Osoba osoba,
+            - WydzialEnum wydzial;
+            b) stworzyć enum WydzialEnum z kilkoma polami,
+            c) stworzyc konstruktory, gettery i settery
+            d) nadpisać metodę toString aby zwracała wszystkie elementy
+         */
 
-        /* Wywołanie konstruktora parametryzowanego klasy ObjektPunktu */
-        objektPunktu = new ObjektPunktu(punkt, 20);
-        System.out.println(objektPunktu.toString()); // ObjektPunktu{punkt=Punkt{x=10, y=15}, z=20}
-
-        /* wywołanie metod wyliczjących */
-        System.out.println(objektPunktu.dodawanie1()); // 45
-        System.out.println(objektPunktu.dodawanie2()); // 45
-
-        /* nadpisanie pola punkt z klasy ObjektPunktu */
-        objektPunktu.setPunkt(new Punkt(1, 2));
-        System.out.println(objektPunktu.dodawanie1()); // 23
+        /* zad.3
+            a) W klasie Main stworzyć 5 różnych studentów, (można za pomocą tego samego objektu)
+            b) dodać studentów do Listy ArrayList,
+            c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString();
+         */
 
     }
 }
