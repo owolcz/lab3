@@ -4,7 +4,7 @@ public class Main {
         /* ćw 4 klasy */
 
         /* zad.1
-            a) Stworzyć klasę typu Osoba z polami prywatnymi:
+            a) Stworzyć klasę Osoba z polami prywatnymi:
             - imie (String),
             - nazwisko (String),
             - indeks (Integer)
@@ -19,13 +19,13 @@ public class Main {
             - WydzialEnum wydzial;
             b) stworzyć enum WydzialEnum z kilkoma polami,
             c) stworzyc konstruktory, gettery i settery
-            d) nadpisać metodę toString aby zwracała wszystkie elementy
+            d) nadpisać metodę toString aby zwracała wszystkie elementy ładnie przedstawione :)
          */
 
         /* zad.3
             a) W klasie Main stworzyć 5 różnych studentów, (można za pomocą tego samego objektu)
             b) dodać studentów do Listy ArrayList,
-            c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString();
+            c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
 
     }
