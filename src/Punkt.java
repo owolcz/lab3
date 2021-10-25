@@ -21,3 +21,4 @@ public class Punkt {
         d) nadpisać metodę toString(), aby zwracała wszystkie wartości pól, analogicznie jak w przykładzie
      */
 }
+
