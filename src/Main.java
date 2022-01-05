@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         /* ćw 1 enum-y */
-
+        //test
         /* zad.1
         a) Stworzyć prosty enum "LiczbyEnum" z liczbami od 1 do 6 zapisanymi słownie,
         b) stworzyć prosty enum "StatusEnum" z wartościami KONTYNUUJEMY i KONIEC,
