@@ -28,5 +28,26 @@ public class Main {
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
 
+
+//        Osoba student = new Osoba("Oskar", "Wołcz", 62642);
+//        Osoba student1 = new Osoba();
+//        System.out.printf(student1.toString());
+//
+//        student1 = new Osoba("Marek", "Mostowiak", 132312);
+//        System.out.printf(student1.toString());
+
+        Student student1 = new Student();
+        System.out.printf(student1.toString());
+
+        Student student2 = new Student "WSB, GDYNIA, POMORSKIE");
+
+
+
+
+
+
+
+
+
     }
 }
