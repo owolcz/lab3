@@ -35,7 +35,7 @@ public class Punkt {
         return pY;
     }
 
-    public int getpZ() {
+    public int getZ() {
         return pZ * 10;
     }
 
@@ -76,7 +76,7 @@ public class Punkt {
         return "Punkt{" +
                 "x=" + pX +
                 ", y=" + pY +
-                ", z=" + pY +
+                ", z=" + pZ +
                 '}';
     }
 }
