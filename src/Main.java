@@ -25,7 +25,7 @@ public class Main {
         punktA.toString();
 
         Punkt punktB = new Punkt(1,2,3);
-        punktB.toString();
+        punktA.toString();
 
         punktA.setX(10);
         punktA.toString();

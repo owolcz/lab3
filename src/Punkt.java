@@ -72,6 +72,7 @@ public class Punkt {
         return pX*x - pY*y - pZ*z;
     }
 
+    @Override
     public String toString() {
         return "Punkt{" +
                 "x=" + pX +
