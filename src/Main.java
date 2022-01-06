@@ -14,5 +14,21 @@ public class Main {
             c) wyświetlić dane z tablicy, użyć pętli for lub forEach
             d) dane powinny być estetycznie przedstawione
          */
+
+            List<Student> studentList = new ArrayList<>();
+
+            Student student = new Student();
+
+            student.Imie = "Oskar";
+            student.Nazwisko = "Wołcz";
+            student.NrAlbumu = 62642;
+
+            studentList.add(student);
+
+        for (Student s : studentList) {
+            System.out.println(s.Imie + " - " + s.Nazwisko + " - " + s.NrAlbumu);
+        }
+
     }
 }
+
