@@ -30,6 +30,8 @@ public class Main {
         punktA.setX(10);
         punktA.toString();
 
+        System.out.println("Wartość x w punkcie A: " +punktA.getX());
+
         System.out.printf("x = %d, y= %d, z = %d\n", punktB.getX(), punktB.getY(),punktB.getZ());
 
         System.out.printf("Suma: " + punktB.suma() + "\n");
