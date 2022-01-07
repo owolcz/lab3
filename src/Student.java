@@ -5,7 +5,7 @@ public class Student {
     public Student(){
 
         this.osoba = new Osoba();
-        this.wydział = WydzialEnum.WSB;
+        this.wydział = WydzialEnum.SOPOT;
 
 
     }
@@ -31,8 +31,8 @@ public class Student {
 
     @Override
     public  String toString(){
-        return "Student: " + osoba +
-                "Wydział: " + wydział;
+        return "Student) " + osoba +
+                "Wydział) " + wydział;
 
     }
 }

@@ -1,3 +1,3 @@
 public enum WydzialEnum {
-    WSB, GDYNIA, POMORSKIE
+    GDYNIA, GDANSK, SOPOT
 }

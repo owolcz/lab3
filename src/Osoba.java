@@ -5,8 +5,8 @@ public class Osoba {
     private int indeks;
 
     public Osoba(){
-        this.imie = "Oskar";
-        this.nazwisko = "Wołcz";
+        this.imie = "Jan";
+        this.nazwisko = "Kowalski";
         this.indeks = 525234;
     }
 
@@ -42,8 +42,8 @@ public class Osoba {
 
     @Override
     public String toString(){
-        return "Imię:" + imie +
-                " Naziwsko:" + nazwisko +
-                " Numer indeksu: " + indeks;
+        return "Imię: " + imie + " | " +
+                "Naziwsko: " + nazwisko + " | " +
+                "Indeks: " + indeks + " ";
     }
 }
