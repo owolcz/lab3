@@ -89,9 +89,9 @@ public class Main {
 //
 //        }
 
-        for (int i = 0; i < studentList.size(); i++) {
+
             System.out.println(studentList.toString());
-        }
+
 
 
 
