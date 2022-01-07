@@ -7,9 +7,15 @@ public class Motocykl extends Auto{
         this.dodatkowySilnik = 0;
     }
 
+
     public Motocykl(String typMotocyklu, int dodatkowySilnik){
         this.typMotocyklu = typMotocyklu;
         this.dodatkowySilnik = dodatkowySilnik;
+    }
+
+    public Motocykl(String marka, String model,String typMotocyklu, int moc, int liczbaKol, int liczbaDrzwi, int turbo){
+        super(marka, model, moc, liczbaKol, liczbaDrzwi, turbo);
+        this.typMotocyklu = typMotocyklu;
     }
 
     public Motocykl(String marka, String model,String typMotocyklu, int moc, int liczbaKol, int liczbaDrzwi, int turbo, int dodatkowySilnik){
