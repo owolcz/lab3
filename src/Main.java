@@ -14,5 +14,27 @@ public class Main {
             oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>
          */
 
+        Pojazd pojazd = new Pojazd("Audi", "A4", 190);
+        System.out.println(pojazd.toString());
+        System.out.println("Całkowita moc: " + pojazd.przeliczMoc());
+
+
+        Auto auto = new Auto("BMW", "X7", 345, 4, 5, 90);
+        System.out.println(auto.toString());
+        System.out.println("Całkowita moc: " + auto.przeliczMoc());
+
+//        Operacja na prywatnej zmiennej czyPojazd setterem
+//        auto.setCzyPojazd(true);
+//        System.out.println(auto.isCzyPojazd());
+
+
+        Motocykl motocykl = new Motocykl("Harley-Davidson", "FLHX Street Glide","Cruiser",
+                90, 2, 0, 20, 30);
+        System.out.println(motocykl.toString());
+
+
+
+
+
     }
 }
