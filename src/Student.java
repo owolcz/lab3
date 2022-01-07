@@ -10,6 +10,11 @@ public class Student {
 
     }
 
+    public Student(Osoba osoba){
+        this.osoba = osoba;
+        this.wydział = getWydział();
+    }
+
     public Student(Osoba osoba, WydzialEnum wydzialEnum){
         this.osoba = osoba;
         this.wydział = wydzialEnum;
@@ -32,7 +37,7 @@ public class Student {
     @Override
     public  String toString(){
         return "Student) " + osoba +
-                "Wydział) " + wydział;
+                "Wydział) " + wydział +"\n";
 
     }
 }

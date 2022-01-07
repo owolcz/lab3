@@ -41,30 +41,30 @@ public class Main {
         student.setWydział(WydzialEnum.GDYNIA);
 
         Osoba osoba4 = new Osoba();
-        osoba.setImie("Oskar");
-        osoba.setNazwisko("Wołcz");
-        osoba.setIndeks(62642);
-        Student student4 = new Student(osoba4, WydzialEnum.SOPOT);
+        osoba4.setImie("Oskar");
+        osoba4.setNazwisko("Wołcz");
+        osoba4.setIndeks(62642);
+        Student student4 = new Student(osoba4);
         student4.setWydział(WydzialEnum.GDYNIA);
 
         Osoba osoba1 = new Osoba();
-        osoba.setImie("Marek");
-        osoba.setNazwisko("Mostowiak");
-        osoba.setIndeks(997);
+        osoba1.setImie("Marek");
+        osoba1.setNazwisko("Mostowiak");
+        osoba1.setIndeks(997);
         Student student1 = new Student(osoba1, WydzialEnum.SOPOT);
         student1.setWydział(WydzialEnum.GDANSK);
 
         Osoba osoba2 = new Osoba();
-        osoba.setImie("Adam");
-        osoba.setNazwisko("Małysz");
-        osoba.setIndeks(2137);
+        osoba2.setImie("Adam");
+        osoba2.setNazwisko("Małysz");
+        osoba2.setIndeks(2137);
         Student student2 = new Student(osoba2, WydzialEnum.SOPOT);
         student2.setWydział(WydzialEnum.SOPOT);
 
         Osoba osoba3 = new Osoba();
-        osoba.setImie("Adam");
-        osoba.setNazwisko("Nowak");
-        osoba.setIndeks(120938);
+        osoba3.setImie("Adam");
+        osoba3.setNazwisko("Nowak");
+        osoba3.setIndeks(120938);
         Student student3 = new Student(osoba3, WydzialEnum.SOPOT);
         student3.setWydział(WydzialEnum.GDANSK);
 
@@ -78,13 +78,20 @@ public class Main {
 
 //        for (Student p : studentList) {
 //            System.out.printf(student.toString());
+//            System.out.printf(student1.toString());
+//            System.out.printf(student2.toString());
+//            System.out.printf(student3.toString());
+//            System.out.printf(student4.toString());
+//        }
+
+//        for (int i = 0; i < studentList.size(); i++) {
+//            System.out.println(studentList.toString());
+//
 //        }
 
         for (int i = 0; i < studentList.size(); i++) {
             System.out.println(studentList.toString());
         }
-
-
 
 
 
